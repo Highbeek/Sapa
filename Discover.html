@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>saPA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo&family=Fira+Sans:wght@400;700&family=Inter:wght@400;700&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-yellow">
+      <div class="container">
+        <a href="sapa.html" class="navbar-brand">saPA</a>
+        <button
+          class="navabr-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#search" class="nav-link current-page"
+                >Search
+                <div class="modal hidden">
+                  <div class="input-group input-group-toggler">
+                    <div class="form-outline">
+                      <input
+                        id="search-input"
+                        type="search"
+                        id="form1"
+                        class="form-control"
+                      />
+                    </div>
+                    <button
+                      id="search-button"
+                      type="button"
+                      class="btn btn-primary"
+                    >
+                      <i class="fas fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#discover" class="nav-link">Discover</a>
+            </li>
+            <li class="nav-item">
+              <a href="#fundraise" class="nav-link">end saPA</a>
+            </li>
+            <li class="nav-item">
+              <a href="#how" class="nav-link">How It Works</a>
+            </li>
+            <li class="nav-item">
+              <a href="#sign" class="nav-link">Sign-In</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Showcase -->
+    <section>
+      <div class="about-sapa">
+        <div class="about-brand m-5 font-size: 8vw;">
+          <h1>About saPA</h1>
+          <p class="text-center">
+            “We are not put on this earth for ourselves, but are placed here for
+            each other. If you are always there for others, then in time of
+            need, someone will be there for you. “Never doubt that a small group
+            of thoughtful committed citizens can change the world. At
+            <span>saPA</span>, we believe your inspiration should be shared with
+            everyone. Because that is how change happens. That’s why we make it
+            easy to inspire the world and turn compassion into action. By giving
+            people the tools they need to capture and share their story far and
+            wide.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <p>Gallery</p>
+      <div class="row">
+        <div class="img-fluid col-lg-4 col-md-6 mb-4">
+          <img class="img-fluid mb-4" src="img/3.jpeg" alt="#" />
+          <img class="img-fluid mb-4" src="img/e.jpg" alt="" />
+          <img class="img-fluid mb-4" src="img/g.jpg" alt="" />
+          <img class="img-fluid mb-4" src="img/q.jpg" alt="" />
+        </div>
+        <div class="img-fluid col-lg-4 col-md-6 mb-4">
+          <img class="img-fluid mb-4" src="img/s.jpg" alt="" />
+          <img class="img-fluid mb-4" src="img/l.jpg" alt="" />
+          <img class="img-fluid mb-4" src="img/11.jfif" alt="" />
+          <img class="img-fluid mb-4" src="img/16.jpeg" alt="" />
+        </div>
+        <div class="img-fluid col-lg-4 col-md-6 mb-4">
+          <img class="img-fluid mb-4" src="img/12.jpeg" alt="" />
+          <img class="img-fluid mb-4" src="img/13.jpeg" alt="" />
+          <img class="img-fluid mb-4" src="img/14.jpeg" alt="" />
+          <img class="img-fluid mb-4" src="img/15.jpeg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="sapa-diff">
+        <div><h1>Why saPA?</h1></div>
+        <div class="diff">
+          <div class="diff1">
+            <h1>Confidence</h1>
+            <p>
+              Our team works around the clock to ensure your safety and protect
+              against fraud.
+            </p>
+          </div>
+          <div class="diff1">
+            <h1>Speed</h1>
+            <p>
+              We’ve helped families and communities get back on their feet
+              quickly.
+            </p>
+          </div>
+          <div class="diff1">
+            <h1>Outreach</h1>
+            <p>
+              saPA helps you easily share your story far and wide over email,
+              text, and social media to rally support for your cause. In
+              addition, we have a dedicated team looking for great stories to
+              amplify and share with the media and our community.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ready">
+      <div class="end">
+        <h1>Ready to Help End saPA?</h1>
+        <button class="btn">End saPA</button>
+        <div class="modal hidden">
+          <button class="close-modal">&times;</button>
+          <h1>I'm a modal window 😍</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="quick-links">
+        <div>
+          <ul>
+            <li><span>END SAPA FOR</span></li>
+            <li class="nav-item">
+              <a href="#search" class="nav-link">Medical</a>
+            </li>
+            <li class="nav-item">
+              <a href="#search" class="nav-link">Emergency</a>
+            </li>
+            <li class="nav-item">
+              <a href="#search" class="nav-link">Accomadation</a>
+            </li>
+            <li class="nav-item">
+              <a href="#search" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#search" class="nav-link">Projects</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><span>LEARN MORE</span></li>
+            <li class="nav-item">
+              <a href="#search" class="nav-link">How saPA works</a>
+            </li>
+            <li class="nav-item">
+              <a href="#search" class="nav-link">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a href="#search" class="nav-link">Success stories</a>
+            </li>
+            <li class="nav-item">
+              <a href="#search" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#search" class="nav-link">Pricing</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><span> RESOURCES</span></li>
+            <li class="nav-item">
+              <a href="#search" class="nav-link">Help Center</a>
+            </li>
+            <li class="nav-item">
+              <a href="#search" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#search" class="nav-link">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="goto">
+        <ul>
+          <li class="foot-item"><span> @ 2022 saPA</span></li>
+          <li class="foot-item">
+            <a href="#terms"> Terms</a>
+          </li>
+          <li class="foot-item">
+            <a href="#privacy">Privacy</a>
+          </li>
+          <li class="foot-item">
+            <a href="#legal">Legal</a>
+          </li>
+        </ul>
+      </div>
+      <div class="social social-expand-lg">
+        <div class="container">
+          <i class="fa fa-facebook"><a href="#"></a></i>
+          <i class="fa fa-twitter"><a href="#"></a></i>
+          <i class="fa fa-linkedin"><a href="#"></a></i>
+          <i class="fa fa-whatsapp"><a href="#"></a></i>
+          <i class="fa fa-instagram"><a href="#"></a></i>
+        </div>
+      </div>
+    </footer>
+    <div class="overlay hidden"></div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

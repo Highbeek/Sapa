@@ -89,15 +89,6 @@ nav {
   text-align: center;
 }
 
-.navbar-brand {
-  font-size: 50px;
-  margin-top: 10px;
-  padding: 14px 17px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-weight: bolder;
-  color: var(--sec-font);
-}
 a:hover,
 a:visited,
 a:link,
